@@ -1,0 +1,12 @@
+<div class="row justify-content-between">
+  <div class="col-3"></div>
+  <div class="col-6 text-center">
+    <h1>Animes'alerie Dashboard</h1>
+  </div>
+  <div class="col-3 my-auto">
+    <button
+      *ngIf="isConnected"
+      (click)="onClickSignOut()"
+      class="btn btn-outline-danger">Deconection</button>
+  </div>
+</div>

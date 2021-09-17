@@ -1,0 +1,8 @@
+body{
+  background-color: lightskyblue;
+}
+.backColor{
+  background-color:white;
+  height:100%;
+  position: fixed;
+}
